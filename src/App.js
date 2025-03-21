@@ -76,9 +76,7 @@ class ProductCard extends Component {
 
 export default class App extends Component {
 
-  // Ta clé publique FedaPay (à remplacer par sa clé publique FedaPay)
-
-  PUBLIC_KEY = 'public_api_key';
+  PUBLIC_KEY = 'pk_sandbox_XXXXXXXXXXX';  // Ta clé publique FedaPay (à remplacer par sa clé publique FedaPay)
 
   render() {
 
