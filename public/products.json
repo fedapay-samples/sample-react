@@ -1,0 +1,8 @@
+[
+    { "id": 1, "name": "Citizen", "price": 100000, "description": "Montre Citizen - Collection Super Titanium - Mechanical - Deux aiguilles, date, 40,5 mm.", "image": "/assets/images/1.webp", "currency": "XOF" },
+    { "id": 2, "name": "Frédérique Constant", "price": 250000, "description": "Montre Frédérique Constant Classics Index, automatique.", "image": "/assets/images/2.webp", "currency": "XOF" },
+    { "id": 3, "name": "Zeppelin", "price": 300000, "description": "Cette montre Zeppelin de la collection 100 ansse compose,d'un boitier rond.", "image": "/assets/images/3.webp", "currency": "XOF" },
+    { "id": 4, "name": "Maserati", "price": 150000, "description": "Montre de la collection Competizione, 3 aiguilles date.", "image": "/assets/images/4.webp", "currency": "XOF" },
+    { "id": 5, "name": "Tissot", "price": 500000, "description": "Montre de la collection PR100 mouvement quartz chronographe.", "image": "/assets/images/5.webp", "currency": "XOF" },
+    { "id": 6, "name": "Seiko", "price": 400000, "description": "Montre Seiko Presage Cocktail Edition homme automatique.", "image": "/assets/images/6.webp", "currency": "XOF" }
+  ]
