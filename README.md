@@ -1,1 +1,1 @@
-# sample-react
+Remplacer le fichier .env.example par .env et insérer votre clé publique en fonction de votre environnement de travail dans le fichier env.
