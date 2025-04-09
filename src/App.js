@@ -8,12 +8,13 @@ class ProductCard extends Component {
     const { product, publicKey } = this.props;
     
     // Configuration dynamique pour le bouton de paiement selon le produit
+    
     const checkoutButtonOptions = {
       public_key: publicKey,
       transaction: {
         amount: product.price,
         description: product.description,
-        callback: "http://localhost:3000"
+        callback_url: "http://localhost:3000"
       },
       currency: {
         iso: product.currency
@@ -61,6 +62,7 @@ export default class App extends Component {
 
   componentDidMount() {
     // Récupération des données depuis le fichier JSON
+    
     fetch('/products.json')
       .then(response => {
         if (!response.ok) {
