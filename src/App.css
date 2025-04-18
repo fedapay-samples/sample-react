@@ -1,0 +1,26 @@
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  /* Style du message flash */
+.flash-message {
+position: fixed;
+top: 20px;
+right: 20px;
+background-color: #28a745; /* Vert pour succès */
+color: white;
+padding: 15px;
+border-radius: 5px;
+display: none;
+z-index: 1000;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.flash-message.error {
+background-color: #dc3545; /* Rouge pour échec */
+}
